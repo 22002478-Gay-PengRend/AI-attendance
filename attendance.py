@@ -95,16 +95,3 @@ while True: # while the webcam is running
 
 # Release handle to the webcam
 cv2.destroyAllWindows()
-
-
-# faceLoc = face_recognition.face_locations(imgBean)[0]
-# encodeBean = face_recognition.face_encodings(imgBean)[0]
-# cv2.rectangle(imgBean, (faceLoc[3],faceLoc[0]),(faceLoc[1],faceLoc[2]), (255,0,255), 2)
-
-# # you can change test image file path to test other images
-# faceLocTest = face_recognition.face_locations(imgTest)[0]
-# encodeTest = face_recognition.face_encodings(imgTest)[0]
-# cv2.rectangle(imgTest, (faceLocTest[3],faceLocTest[0]),(faceLocTest[1],faceLocTest[2]), (255,0,255), 2)
-
-# results =  face_recognition.compare_faces([encodeBean], encodeTest)
-# faceDis = face_recognition.face_distance([encodeBean], encodeTest)
